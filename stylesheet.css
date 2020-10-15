@@ -4,6 +4,11 @@ body {
   padding: 40px 0px;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+}
+
 #container {
   padding-bottom: 40px;
   display: flex;
@@ -29,13 +34,19 @@ h4 {
 
 #email {
   background: white;
-  padding: 5px 3px;
+  padding: 0px 4px 3px 4px;
   border-radius: 10px;
 }
 
 img {
-  width: 15vw;
+  width: 20vw;
   height: auto;
   margin: auto;
   padding: 10px 0px;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 40vw;
+  }
 }
